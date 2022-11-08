@@ -348,9 +348,9 @@
 	
 \begin{frame}
 	\frametitle{Position Control}
-	Connect antenna pointing to Gpredict and Stellarium software. 	Compute sidereal time using eight 8 bits microcontroller for a test and error obtained is 0.07S .RP2040 is a 32 bits it is expected to improve the error. Testbench using astropy and algoritms for a calculus sidereal time.   
+	Connect antenna pointing to Gpredict and Stellarium software. 	Compute sidereal time using eight 8 bits microcontroller for a test and error obtained is 0.07 s .RP2040 is a 32 bits it is expected to improve the error. Testbench using astropy and algoritms for a calculus sidereal time.   
 	\begin{figure}
-		\vspace{-0.8cm}
+		\vspace{-0.7cm}
 		\includegraphics[width=\textwidth,height=6cm]{soft_figures/gpredict_stellarium_reports.eps}
 	\end{figure}
 \end{frame}
@@ -362,10 +362,22 @@
 
 \begin{frame}
 	\frametitle{Position Control}
+	Tests for a final system controller.
+	\begin{figure}
+	\vspace{-0.5cm}
+		\includegraphics[width=\textwidth]{soft_figures/test_case_end_controller.eps}
+	\end{figure} 
+\vspace{-0.5cm}
+Next steps: 
 
-
-
-
+\begin{itemize}
+	\item create a software diagrams (UML,state machines, etc) for a total system
+	\item Talk to system management to define terminal interfaces. 
+	\item Create a test for a diagrams software. 
+	\item Integration systems with a mechanical movement antenna and test using a radiosource.  
+	\item Create repository to share with the community(TBD)
+\end{itemize}
+	
 \end{frame}
 
 
