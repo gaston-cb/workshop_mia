@@ -111,15 +111,32 @@ acs-*.bib
 *.glsdefs
 *.lzo
 *.lzs
+<<<<<<< HEAD
+=======
+*.slg
+*.slo
+*.sls
+>>>>>>> 158f368 (test for a repair repo overleaf)
 
 # uncomment this for glossaries-extra (will ignore makeindex's style files!)
 # *.ist
 
+<<<<<<< HEAD
+=======
+# gnuplot
+*.gnuplot
+*.table
+
+>>>>>>> 158f368 (test for a repair repo overleaf)
 # gnuplottex
 *-gnuplottex-*
 
 # gregoriotex
 *.gaux
+<<<<<<< HEAD
+=======
+*.glog
+>>>>>>> 158f368 (test for a repair repo overleaf)
 *.gtex
 
 # htlatex
@@ -135,8 +152,13 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
+<<<<<<< HEAD
 # TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
+=======
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
+>>>>>>> 158f368 (test for a repair repo overleaf)
 *-tikzDictionary
 
 # listings
@@ -166,6 +188,12 @@ _minted*
 # morewrites
 *.mw
 
+<<<<<<< HEAD
+=======
+# newpax
+*.newpax
+
+>>>>>>> 158f368 (test for a repair repo overleaf)
 # nomencl
 *.nlg
 *.nlo
@@ -185,6 +213,12 @@ _minted*
 # scrwfile
 *.wrt
 
+<<<<<<< HEAD
+=======
+# svg
+svg-inkscape/
+
+>>>>>>> 158f368 (test for a repair repo overleaf)
 # sympy
 *.sout
 *.sympy
@@ -209,6 +243,12 @@ pythontex-files-*/
 *.md5
 *.auxlock
 
+<<<<<<< HEAD
+=======
+# titletoc
+*.ptc
+
+>>>>>>> 158f368 (test for a repair repo overleaf)
 # todonotes
 *.tdo
 
@@ -274,3 +314,14 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+<<<<<<< HEAD
+=======
+
+# xwatermark package
+*.xwm
+
+# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
+# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
+# Uncomment the next line to have this generated file ignored.
+#*Notes.bib
+>>>>>>> 158f368 (test for a repair repo overleaf)
